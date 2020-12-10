@@ -1,0 +1,38 @@
+if market is closed the order can not be executed
+first check whether the market is open or not
+### the value is live that how much the value is increased or decreased from market was open ###
+
+
+
+#Api 1 (Get request with userid,Ticker name)
+If any stock held a card showing the following:  
+-Stock currently held (alpaca) ## 
+-Current value of stock (alpaca) ## 
+-Increase of decrease in stock since bought (Profit / Loss) percent (alpaca) 
+
+#Api 2
+Current Trading information: (alpaca) 
+-Recommended Bid  
+-Ask Bid  
+-Last Traded time 
+-Change since last traded (Positive or Negative in amount) 
+
+#Api 3
+Transaction information – Buying and selling you are conducting (alpaca) 
+-Type of trade this is (Select) 
+-Number of shares to be traded  
+-Price you wish to trade at  
+-Type or order this is (Select) 
+
+#Api 4
+-Will list all orders that have not be executed and can still be modified or deleted 
+
+#Api 5
+Cancel an order
+DELETE/v2/orders/{order_id}
+
+#Api 6
+Replace an order by order id
+
+#Api 7
+Get an order by order id
