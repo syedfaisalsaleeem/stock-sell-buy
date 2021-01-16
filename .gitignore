@@ -19,4 +19,5 @@ var/
 # Serverless directories
 .serverless
 .env
-stocks/key.py
+stocks/mystocks
+node_modules
